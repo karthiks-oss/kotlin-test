@@ -18,9 +18,15 @@ class KtFactorialTest {
     }
 
     @Test
-    fun testFact5(){
+    fun testFact5() {
         val result = Factorial.calc(5);
         Assert.assertEquals("Factorial of 5 should be 120",120,result);
+    }
+
+    @Test
+    fun testFactDouble(){
+        val result = Factorial.calc(Factorial.calc(5));
+        Assert.assertEquals("Factorial of Big number should be 0",0,result);
     }
 
     @Test
