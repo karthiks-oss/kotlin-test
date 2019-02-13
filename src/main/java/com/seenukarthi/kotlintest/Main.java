@@ -1,6 +1,6 @@
-package com.emirates.kotlintest;
+package com.seenukarthi.kotlintest;
 
-import com.emirates.kotlintest.utils.Factorial;
+import com.seenukarthi.kotlintest.utils.Factorial;
 
 public class Main {
     private Main(){

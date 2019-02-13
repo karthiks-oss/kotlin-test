@@ -1,4 +1,4 @@
-package com.emirates.kotlintest.utils;
+package com.seenukarthi.kotlintest.utils;
 
 public class Factorial {
     private Factorial() {

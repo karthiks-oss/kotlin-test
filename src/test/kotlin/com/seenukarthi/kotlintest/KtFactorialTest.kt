@@ -1,6 +1,6 @@
-package com.emirates.kotlintest
+package com.seenukarthi.kotlintest
 
-import com.emirates.kotlintest.utils.Factorial;
+import com.seenukarthi.kotlintest.utils.Factorial;
 import org.junit.Assert
 import org.junit.Test
 
