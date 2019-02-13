@@ -33,4 +33,11 @@ class KtFactorialTest {
     fun testMain(){
         Main.main(null);
     }
+
+    @Test
+    fun testKotlin(){
+        val testClass:TestClass = TestClass();
+        val result = testClass.test();
+        Assert.assertEquals("Value should be one ",1,result);
+    }
 }
